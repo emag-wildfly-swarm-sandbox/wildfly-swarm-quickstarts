@@ -20,8 +20,6 @@ import java.io.Serializable;
 @Entity
 @Table(name = "employees")
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Employee implements Serializable {
 
   @Id
