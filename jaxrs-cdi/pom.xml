@@ -14,28 +14,15 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <version.wildfly.bom>9.0.0.Beta2</version.wildfly.bom>
     <version.wildfly.swarm>1.0.0.Alpha2-SNAPSHOT</version.wildfly.swarm>
   </properties>
-
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.wildfly.bom</groupId>
-        <artifactId>jboss-javaee-7.0-with-all</artifactId>
-        <version>${version.wildfly.bom}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 
   <dependencies>
     <!-- wildfly-swarm -->
     <dependency>
       <groupId>org.wildfly.swarm</groupId>
       <artifactId>wildfly-swarm-weld-jaxrs</artifactId>
-      <version>${<version class="wildfly"></version>swarm}</version>
+      <version>${version.wildfly.swarm}</version>
       <scope>provided</scope>
     </dependency>
 
