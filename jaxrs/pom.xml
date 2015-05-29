@@ -50,9 +50,8 @@
         <version>${version.wildfly-swarm}</version>
         <executions>
           <execution>
-            <phase>package</phase>
             <goals>
-              <goal>create</goal>
+              <goal>package</goal>
             </goals>
           </execution>
         </executions>
