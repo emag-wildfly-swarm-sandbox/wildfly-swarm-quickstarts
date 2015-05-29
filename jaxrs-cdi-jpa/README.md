@@ -1,4 +1,4 @@
-# WildFly-Swarm JAX-RS + JPA sample
+# WildFly-Swarm JAX-RS + CDI + JPA sample
 
 * JDK 8
 * Maven 3.1.0 or Later
@@ -8,7 +8,7 @@
 ### Build & Run
 
 ``` sh
-$ mvn clean package && java -jar target/jaxrs-jpa-*-swarm.jar
+$ mvn clean package && java -jar target/jaxrs-cdi-jpa-*-swarm.jar
 ```
 
 ### Access API
