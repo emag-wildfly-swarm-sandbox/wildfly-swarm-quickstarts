@@ -94,7 +94,7 @@
         <artifactId>wildfly-swarm-plugin</artifactId>
         <version>${version.wildfly.swarm}</version>
         <configuration>
-          <mainClass>wildflyswarm.jaxrsjpa.App</mainClass>
+          <mainClass>wildflyswarm.jaxrscdijpa.App</mainClass>
         </configuration>
         <executions>
           <execution>
