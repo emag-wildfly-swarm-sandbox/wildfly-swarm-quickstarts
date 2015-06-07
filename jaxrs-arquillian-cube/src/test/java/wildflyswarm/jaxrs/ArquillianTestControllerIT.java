@@ -37,7 +37,7 @@ public class ArquillianTestControllerIT {
 
     return ShrinkWrap.createFromZipFile(
       JavaArchive.class,
-      new File("target/jaxrs-arquillian-cube-1.0.0-swarm.jar")
+      new File("target/jaxrs-arquillian-cube-swarm.jar")
     );
   }
 
@@ -46,7 +46,7 @@ public class ArquillianTestControllerIT {
 
   @Test
   public void test() throws Exception {
-    TimeUnit.SECONDS.sleep(1);
+    TimeUnit.SECONDS.sleep(3);
 
     Client client = ClientBuilder.newClient();
     WebTarget target = client.target(UriBuilder.fromUri(deploymentUri).path("arquillian-test"));

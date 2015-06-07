@@ -9,7 +9,7 @@
       swarm:
         buildImage:
           dockerfileLocation: src/test/resources/swarm
-          noCache: false
+          noCache: true
           remove: true
         await:
           strategy: polling
