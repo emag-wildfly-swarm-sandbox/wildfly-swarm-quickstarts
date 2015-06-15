@@ -48,6 +48,7 @@
     <module>jaxrs-cdi</module>
     <module>jaxrs-cdi-jpa</module>
     <module>jaxrs-cdi-jpa-keycloak</module>
+    <module>jsf</module>
   </modules>
 
 </project>
