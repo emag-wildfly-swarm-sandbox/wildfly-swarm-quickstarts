@@ -6,10 +6,6 @@ import org.wildfly.swarm.datasources.Datasource;
 import org.wildfly.swarm.datasources.DatasourcesFraction;
 import org.wildfly.swarm.datasources.Driver;
 import org.wildfly.swarm.jaxrs.JAXRSDeployment;
-import wildflyswarm.jaxrscdijpa.api.EmployeeController;
-import wildflyswarm.jaxrscdijpa.domain.model.Employee;
-import wildflyswarm.jaxrscdijpa.domain.repository.EmployeeRepository;
-import wildflyswarm.jaxrscdijpa.domain.service.EmployeeService;
 
 /**g
  * @author Yoshimasa Tanabe
@@ -33,11 +29,7 @@ public class App {
     container.start();
 
     JAXRSDeployment jaxRsDeployment = new JAXRSDeployment(container);
-    jaxRsDeployment.addResource(EmployeeController.class);
-    jaxRsDeployment.getArchive().addClasses(
-      Employee.class,
-      EmployeeService.class,
-      EmployeeRepository.class);
+    jaxRsDeployment.getArchive().addPackages(true, "wildflyswarm");
     jaxRsDeployment.getArchive().addAsWebInfResource(
       new ClassLoaderAsset("META-INF/persistence.xml", App.class.getClassLoader()), "classes/META-INF/persistence.xml");
     jaxRsDeployment.getArchive().addAsWebInfResource(
