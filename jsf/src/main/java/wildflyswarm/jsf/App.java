@@ -1,8 +1,9 @@
 package wildflyswarm.jsf;
 
+import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.StringAsset;
 import org.wildfly.swarm.container.Container;
-import org.wildfly.swarm.undertow.WarDeployment;
+import org.wildfly.swarm.undertow.WARArchive;
 
 /**
  * @author Yoshimasa Tanabe
@@ -13,9 +14,9 @@ public class App {
     Container container = new Container();
     container.start();
 
-    WarDeployment deployment = new WarDeployment(container);
+    WARArchive deployment = ShrinkWrap.create(WARArchive.class);
     deployment.staticContent();
-    deployment.getArchive().addAsWebInfResource(new StringAsset(
+    deployment.addAsWebInfResource(new StringAsset(
       "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
         "<web-app version=\"3.1\" xmlns=\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" +
         "         xsi:schemaLocation=\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd\">\n" +

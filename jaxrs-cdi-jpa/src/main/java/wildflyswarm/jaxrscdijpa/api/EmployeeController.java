@@ -22,7 +22,7 @@ import java.util.List;
  * @author Yoshimasa Tanabe
  */
 @Path("/employees")
-public class EmployeeController {
+public class  EmployeeController {
 
   @Inject
   private EmployeeService employeeService;

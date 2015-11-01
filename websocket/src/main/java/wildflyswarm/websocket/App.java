@@ -1,7 +1,8 @@
 package wildflyswarm.websocket;
 
+import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.wildfly.swarm.container.Container;
-import org.wildfly.swarm.jaxrs.JAXRSDeployment;
+import org.wildfly.swarm.undertow.WARArchive;
 
 /**
  * @author Yoshimasa Tanabe
@@ -12,9 +13,9 @@ public class App {
 
     Container container = new Container();
 
-    JAXRSDeployment deployment = new JAXRSDeployment(container);
+    WARArchive deployment = ShrinkWrap.create(WARArchive.class);
     deployment.staticContent("/");
-    deployment.getArchive().addPackage("wildflyswarm.websocket");
+    deployment.addPackage("wildflyswarm.websocket");
 
     container.start().deploy(deployment);
 
