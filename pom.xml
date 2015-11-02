@@ -47,6 +47,7 @@
     <module>jaxrs-arquillian-cube</module>
     <module>jaxrs-cdi</module>
     <module>jaxrs-cdi-jpa</module>
+    <module>jaxrs-cdi-jpa-war</module>
     <module>jaxrs-cdi-jpa-keycloak</module>
     <module>jsf</module>
     <module>websocket</module>
