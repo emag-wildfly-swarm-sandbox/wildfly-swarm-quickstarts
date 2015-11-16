@@ -51,6 +51,7 @@
     <module>jaxrs-cdi-jpa-keycloak</module>
     <module>jsf</module>
     <module>websocket</module>
+    <module>undertowjs</module>
   </modules>
 
 </project>
