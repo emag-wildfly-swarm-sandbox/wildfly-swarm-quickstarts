@@ -52,6 +52,7 @@
     <module>jsf</module>
     <module>websocket</module>
     <module>undertowjs</module>
+    <module>management</module>
   </modules>
 
 </project>
