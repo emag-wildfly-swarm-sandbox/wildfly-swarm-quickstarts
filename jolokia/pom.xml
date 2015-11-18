@@ -18,7 +18,6 @@
       <groupId>org.wildfly.swarm</groupId>
       <artifactId>wildfly-swarm-jolokia</artifactId>
       <version>${version.wildfly.swarm}</version>
-      <scope>provided</scope>
     </dependency>
   </dependencies>
 
