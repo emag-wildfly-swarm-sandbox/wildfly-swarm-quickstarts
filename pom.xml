@@ -53,6 +53,7 @@
     <module>websocket</module>
     <module>undertowjs</module>
     <module>management</module>
+    <module>jolokia</module>
   </modules>
 
 </project>
