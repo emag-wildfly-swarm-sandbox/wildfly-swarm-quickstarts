@@ -9,11 +9,16 @@
   </parent>
 
   <artifactId>jolokia</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>jolokia</name>
 
   <dependencies>
+    <dependency>
+      <groupId>org.wildfly.swarm</groupId>
+      <artifactId>wildfly-swarm-jaxrs</artifactId>
+      <version>${version.wildfly.swarm}</version>
+    </dependency>
     <dependency>
       <groupId>org.wildfly.swarm</groupId>
       <artifactId>wildfly-swarm-jolokia</artifactId>
@@ -34,9 +39,6 @@
       <plugin>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>wildfly-swarm-plugin</artifactId>
-        <configuration>
-          <mainClass>wildflyswarm.jolokia.App</mainClass>
-        </configuration>
       </plugin>
     </plugins>
   </build>

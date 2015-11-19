@@ -42,3 +42,6 @@ src/main/webapp/WEB-INF/keycloak.json
 
 # Docker
 .env
+
+# WildFly Swarm
+overlays
