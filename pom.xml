@@ -54,6 +54,8 @@
     <module>undertowjs</module>
     <module>management</module>
     <module>jolokia</module>
+
+    <module>jpa-duplicate-service-exception-with-arq</module>
   </modules>
 
 </project>
