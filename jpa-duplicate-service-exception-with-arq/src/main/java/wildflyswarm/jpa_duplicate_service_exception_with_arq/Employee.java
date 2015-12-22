@@ -1,4 +1,4 @@
-package wildflyswarm.jpapostgresql;
+package wildflyswarm.jpa_duplicate_service_exception_with_arq;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

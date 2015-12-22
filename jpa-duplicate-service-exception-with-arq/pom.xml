@@ -46,7 +46,7 @@
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>wildfly-swarm-plugin</artifactId>
         <configuration>
-          <mainClass>wildflyswarm.jpapostgresql.App</mainClass>
+          <mainClass>wildflyswarm.jpa_duplicate_service_exception_with_arq.App</mainClass>
         </configuration>
       </plugin>
       <plugin>

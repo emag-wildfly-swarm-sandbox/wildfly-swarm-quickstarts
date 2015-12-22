@@ -1,4 +1,4 @@
-package wildflyswarm.jpapostgresql;
+package wildflyswarm.jpa_duplicate_service_exception_with_arq;
 
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.ClassLoaderAsset;

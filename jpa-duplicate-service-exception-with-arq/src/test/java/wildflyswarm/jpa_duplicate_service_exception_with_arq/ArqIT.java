@@ -1,4 +1,4 @@
-package wildflyswarm.jpapostgresql;
+package wildflyswarm.jpa_duplicate_service_exception_with_arq;
 
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
