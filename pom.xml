@@ -54,6 +54,7 @@
     <module>undertowjs</module>
     <module>management</module>
     <module>jolokia</module>
+    <module>vaadin</module>
 
     <module>jpa-duplicate-service-exception-with-arq</module>
   </modules>
