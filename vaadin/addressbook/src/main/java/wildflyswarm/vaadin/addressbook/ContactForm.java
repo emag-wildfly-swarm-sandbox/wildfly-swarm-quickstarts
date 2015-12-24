@@ -1,4 +1,4 @@
-package wildflyswarm.vaadin.addressbook.backend;
+package wildflyswarm.vaadin.addressbook;
 
 import com.vaadin.data.fieldgroup.BeanFieldGroup;
 import com.vaadin.data.fieldgroup.FieldGroup;
@@ -10,6 +10,7 @@ import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.Notification;
 import com.vaadin.ui.TextField;
 import com.vaadin.ui.themes.ValoTheme;
+import wildflyswarm.vaadin.addressbook.backend.Contact;
 
 /**
  * @author Yoshimasa Tanabe

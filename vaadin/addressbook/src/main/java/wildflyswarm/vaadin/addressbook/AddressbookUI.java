@@ -1,4 +1,4 @@
-package wildflyswarm.vaadin.addressbook.backend;
+package wildflyswarm.vaadin.addressbook;
 
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Title;
@@ -12,6 +12,8 @@ import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.TextField;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
+import wildflyswarm.vaadin.addressbook.backend.Contact;
+import wildflyswarm.vaadin.addressbook.backend.ContactService;
 
 import javax.servlet.annotation.WebServlet;
 
