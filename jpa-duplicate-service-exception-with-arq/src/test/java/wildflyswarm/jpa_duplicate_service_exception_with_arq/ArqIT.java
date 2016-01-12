@@ -2,9 +2,9 @@ package wildflyswarm.jpa_duplicate_service_exception_with_arq;
 
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
+import org.jboss.shrinkwrap.api.Archive;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.wildfly.swarm.jaxrs.JAXRSArchive;
 
 /**
  * @author Yoshimasa Tanabe
@@ -13,8 +13,8 @@ import org.wildfly.swarm.jaxrs.JAXRSArchive;
 public class ArqIT {
 
   @Deployment
-  public static JAXRSArchive createDeployment() throws Exception {
-    JAXRSArchive deployment = MyDeployment.createDeployment();
+  public static Archive createDeployment() throws Exception {
+    Archive deployment = MyDeployment.createDeployment();
 
 //    System.err.println(deployment.toString(true));
 
