@@ -3,8 +3,10 @@ package wildflyswarm.jpa_duplicate_service_exception_with_arq;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.Archive;
+import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.wildfly.swarm.jaxrs.JAXRSArchive;
 
 /**
  * @author Yoshimasa Tanabe
@@ -14,9 +16,9 @@ public class ArqIT {
 
   @Deployment
   public static Archive createDeployment() throws Exception {
-    Archive deployment = MyDeployment.createDeployment();
+    JAXRSArchive deployment = ShrinkWrap.create(JAXRSArchive.class);
 
-//    System.err.println(deployment.toString(true));
+    deployment.addAllDependencies();
 
     return deployment;
   }
