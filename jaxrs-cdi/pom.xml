@@ -16,7 +16,7 @@
     <!-- wildfly-swarm -->
     <dependency>
       <groupId>org.wildfly.swarm</groupId>
-      <artifactId>wildfly-swarm-jaxrs-weld</artifactId>
+      <artifactId>jaxrs-weld</artifactId>
       <version>${version.wildfly.swarm}</version>
       <scope>provided</scope>
     </dependency>

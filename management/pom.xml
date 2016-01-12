@@ -15,13 +15,13 @@
   <dependencies>
     <dependency>
       <groupId>org.wildfly.swarm</groupId>
-      <artifactId>wildfly-swarm-jaxrs</artifactId>
+      <artifactId>jaxrs</artifactId>
       <version>${version.wildfly.swarm}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.wildfly.swarm</groupId>
-      <artifactId>wildfly-swarm-management</artifactId>
+      <artifactId>management</artifactId>
       <version>${version.wildfly.swarm}</version>
       <scope>provided</scope>
     </dependency>

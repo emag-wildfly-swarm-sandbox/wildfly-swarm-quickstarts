@@ -16,12 +16,12 @@
   <dependencies>
     <dependency>
       <groupId>org.wildfly.swarm</groupId>
-      <artifactId>wildfly-swarm-jaxrs</artifactId>
+      <artifactId>jaxrs</artifactId>
       <version>${version.wildfly.swarm}</version>
     </dependency>
     <dependency>
       <groupId>org.wildfly.swarm</groupId>
-      <artifactId>wildfly-swarm-jolokia</artifactId>
+      <artifactId>jolokia</artifactId>
       <version>${version.wildfly.swarm}</version>
     </dependency>
   </dependencies>

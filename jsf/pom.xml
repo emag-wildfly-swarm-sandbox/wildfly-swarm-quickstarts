@@ -17,7 +17,7 @@
   <dependencies>
     <dependency>
       <groupId>org.wildfly.swarm</groupId>
-      <artifactId>wildfly-swarm-jsf</artifactId>
+      <artifactId>jsf</artifactId>
       <version>${version.wildfly.swarm}</version>
     </dependency>
   </dependencies>
