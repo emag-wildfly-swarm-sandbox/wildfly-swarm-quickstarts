@@ -18,7 +18,7 @@ public class MyDeployment {
     deployment.addAsWebInfResource(
       new ClassLoaderAsset("META-INF/persistence.xml", App.class.getClassLoader()), "classes/META-INF/persistence.xml");
 
-    deployment.addAllDependencies();
+//    deployment.addAllDependencies();
 
     return deployment;
   }
