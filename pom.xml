@@ -5,7 +5,7 @@
 
   <groupId>org.wildfly.swarm.quickstarts</groupId>
   <artifactId>wildfly-swarm-quickstarts-parent</artifactId>
-  <version>1.0.0.Alpha6-SNAPSHOT</version>
+  <version>1.0.0.Alpha7-SNAPSHOT</version>
 
   <name>WildFly Swarm QuickStarts: Parent</name>
   <description>WildFly Swarm QuickStarts: Parent</description>
