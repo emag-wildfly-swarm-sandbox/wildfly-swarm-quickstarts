@@ -11,7 +11,7 @@
   <artifactId>jpa-duplicate-service-exception-with-arq</artifactId>
 
   <properties>
-    <version.arquillian>1.1.8.Final</version.arquillian>
+    <version.arquillian>1.1.10.Final</version.arquillian>
     <version.resteasy>3.0.14.Final</version.resteasy>
     <version.maven-failsafe-plugin>2.19</version.maven-failsafe-plugin>
   </properties>

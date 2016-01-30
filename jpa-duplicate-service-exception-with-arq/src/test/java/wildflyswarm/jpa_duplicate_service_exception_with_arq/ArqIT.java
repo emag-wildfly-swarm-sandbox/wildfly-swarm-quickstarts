@@ -35,7 +35,6 @@ public class ArqIT {
     Client client = ClientBuilder.newClient();
     WebTarget target = client.target(UriBuilder.fromUri(deploymentURI));
 
-    // ClassNotFoundException
     assertTrue(target.request(MediaType.APPLICATION_JSON).get(String.class)
       .contains("The time is"));
 
