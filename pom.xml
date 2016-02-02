@@ -5,7 +5,7 @@
 
   <groupId>org.wildfly.swarm.quickstarts</groupId>
   <artifactId>wildfly-swarm-quickstarts-parent</artifactId>
-  <version>1.0.0.Alpha7-SNAPSHOT</version>
+  <version>1.0.0.Alpha9-SNAPSHOT</version>
 
   <name>WildFly Swarm QuickStarts: Parent</name>
   <description>WildFly Swarm QuickStarts: Parent</description>
@@ -84,6 +84,7 @@
     <module>vaadin</module>
 
     <module>jpa-duplicate-service-exception-with-arq</module>
+    <module>runtime-eception-RESTEASY003190</module>
   </modules>
 
 </project>

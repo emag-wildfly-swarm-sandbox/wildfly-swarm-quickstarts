@@ -7,7 +7,7 @@
   <parent>
     <groupId>org.wildfly.swarm.quickstarts</groupId>
     <artifactId>vaadin</artifactId>
-    <version>1.0.0.Alpha7-SNAPSHOT</version>
+    <version>1.0.0.Alpha9-SNAPSHOT</version>
   </parent>
 
   <artifactId>ui-basic</artifactId>
